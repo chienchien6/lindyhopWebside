@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(48, 79, 95);
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(picture/jfswing.jpg);
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.news {
+    background-color: antiquewhite;
+    color: white;
+    height: 85vh;
+    background-image: url(picture/dragon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.news h2 {
+    font-size: 60px;
+}
+
+.news p {
+    color: rgb(236, 230, 220);
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.news a {
+    color: white;
+
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+    /* display: inline把li表單區塊列改為行內,就能並排
+    vw為視窗調整時的4%相對單位 */
+}
+
+/* header,
+section,
+footer {
+    background-color: rgb(80, 188, 188);
+    border: 5px burlywood ridge;
+    padding: 30px 50px;
+    margin: 30px;
+} */

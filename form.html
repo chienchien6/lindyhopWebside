@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form元素</title>
+    <style>
+        .st1 {
+            width: 450px;
+            border-bottom: 2px dashed gray;
+            margin: 20px;
+            padding-bottom: 10px;
+        }
+
+        .sub {
+            margin: 20px;
+            text-align: center;
+            width: 450px;
+        }
+
+        .t1 {
+            width: 100px;
+            float: left;
+            text-align: right;
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div class="st1">
+            <label for="account1" class="t1">姓名:</label><input type="text" name="accoun1" value="guest" size="10"
+                id="account1">
+        </div>
+
+        <div class="st1">
+            <label class="t1">性別:</label>
+            <label>
+                <input type="radio" name="gender" value="male">男
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">女
+            </label>
+
+        </div>
+        <div class="st1">
+            <label for="pwd1" class="t1">密碼:</label>
+            <input type="text" name="pwd" maxlength="6" id="pwd1">
+        </div>
+        <div class="st1">
+            <label for="" class="t1">興趣:</label>
+            <label>
+                <input type="checkbox" name="hobby" value="movie" id="">電影
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="music" id="">音樂
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="sport" id="">運動
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="travel" id="">旅遊
+            </label>
+        </div>
+        <div class="st1">
+            <label for="comment1" class="t1">意見:</label>
+            <textarea name="comment" cols="40" rows="5" id="comment1"></textarea>
+
+        </div>
+        <div class="sub">
+            <input type="submit" value="送出">
+            <input type="reset" value="清除">
+        </div>
+    </form>
+
+</body>
+
+</html>
